@@ -11,5 +11,5 @@ For easy setup go the the website at https://ingot-2.thegreatestgiant.repl.co/
 3. Set the name to `Ingot 2.0` and the URL to the code below or [here](https://github.com/FogNetwork/Ingot/blob/main/bookmarklet.js)
 
 ```js
-javascript:(()=>{var a=document.createElement('script');a.src='https://cdn.jsdelivr.net/gh/thegreatestgiant/ingot-2.0@main/ingot2.0.js';document.body.appendChild(a)})()
+javascript:(function(){document.head.appendChild(document.createElement('script')).src='https://cdn.jsdelivr.net/gh/thegreatestgiant/ingot-2.0@main/ingot2.0.js'})()
 ```
